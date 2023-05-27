@@ -10,7 +10,7 @@ COPY ./package.json /usr/src/app/
 RUN npm install --production && npm cache clean --force
 COPY ./ /usr/src/app
 ENV NODE_ENV production
-ENV PORT 80
+ENV PORT 7070
 EXPOSE 80
 
 CMD [ "npm", "start" ]
