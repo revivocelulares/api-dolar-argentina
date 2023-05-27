@@ -2,6 +2,7 @@
 
 Obtene las diferentes cotizaciones del dólar, euro, reservas, evolucion y riesgo pais.
 
+
 | Metodo | Endpoint | Descripcion |
 | ------ | ------ | ------ |
 | GET | /api/dolaroficial | Cotizacion dólar oficial |
