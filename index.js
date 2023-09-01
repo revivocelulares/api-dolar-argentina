@@ -8,7 +8,7 @@ const app = express();
 
 app.get('/', async (req, res) => {
     try {
-        res.send("API para obtener las cotizaciones de los distintos tipos de dolar y riesgo pais.")
+        res.send("API para obtener las cotizaciones de los distintos tipos de dolar.")
     } catch(e) {
         console.log(e)
         res.send(500);
